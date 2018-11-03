@@ -53,19 +53,33 @@
 #boxup > div{
     border: solid black 3px;
     background-color: white;
+    margin: 5px;
 }
 
 #bowlw{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 3em;
+    grid-gap: 1em;
     text-align: center;
-
 }
 
 #boxlw > div{
-    border: 1px solid white;
-    height: 40px;
-    width: 170px;
-    padding-left: 200px;
+   background-color: gray;
+   margin-right: 900px;
+   justify-items: center;
 }
+
+.hi{
+    margin : 8px;
+}
+
+.tp{
+    color: blue;
+    position: absolute;
+    top: 1%;
+    bottom: 0%;
+    right: 50px;
+}
+
+
+
