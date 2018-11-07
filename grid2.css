@@ -31,6 +31,10 @@
     grid-area: box-f;
 }
 
+.box2{
+    height: 50px;
+}
+
 .cont > div{
     background-color: lightsteelblue;
     
@@ -101,6 +105,7 @@
     top: 1%;
     bottom: 0%;
     right: 50px;
+    height: 70px;
 }
 
 .navigation{
@@ -120,12 +125,30 @@
 button{
     color: white;
     border: none;
-    padding: 5px;
+    padding: 0px;
     background-color: mediumseagreen;
+    height: 30px;
+    width: 80px;
+}
+
+button a{
+    color: white;
+}
+
+button:hover{
+    background-color: blueviolet;
+}
+
+button:hover ul li{
+    display: block;
 }
 
 p{
     margin: 15px;
+}
+
+a{
+    text-decoration: none;
 }
 
 h4{
@@ -133,14 +156,15 @@ h4{
 }
 
 .detail{
-    background-color: khaki;
+    background-color: grey;
     padding: 5px;
 }
 
 .sidebar{
-    background-color: grey;
+    background-color: white;
     margin: 5px;
     height: 500px;
+    padding: 5px;
 }
 
 .advert{
@@ -153,7 +177,7 @@ hr{
     margin: 10px;
 }
 
-img{
+.try{
     margin: 20px;
 }
 
@@ -161,4 +185,38 @@ img{
     background-color: brown;
     height: 50px;
     padding: 5px;
+}
+
+.ad{
+    height: 100px;
+    width: 450px;
+
+}
+
+ul{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    color: blue;
+}
+
+ul li{
+    background-color: aquamarine;
+    width: 150px;
+    height: 30px;
+    opacity: .7;
+    text-align: center;
+    line-height: 40px;
+    display: none;
+    padding: 5px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: blue;
+}
+
+
+li:hover{
+    background-color: white;
 }

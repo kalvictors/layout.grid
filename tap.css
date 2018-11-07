@@ -1,0 +1,46 @@
+h1{text-align:center;}
+        
+            p{color:black;}
+            body{background-color:green;}
+            
+            h2{color:yellow;}
+            h3{
+                color:orangered;
+                background-color: azure;
+                margin-right:750px;
+            }
+            li{
+                color:blue}
+            .video{
+                align-items:center;
+                }
+
+            */form styles*/
+            form{padding:10px;}
+            fieldset{margin-bottom:0.8em;}
+            fieldset fieldset{margin-top:1em; padding:0.8em boarder=1px;}
+            legend{font-size:1.25em;}
+            .Do you know Zal Point legend, .password legend{margin-left:-0.1em; font-weight:bold;}
+            
+            body{background:olivedrab;}
+
+         .nav-list{
+        list-style: none; 
+        display: inline;
+         margin:10px;
+         }
+
+        .top{
+        text-decoration: none;
+         background-color:blueviolet; 
+         font-size: 23px;
+         color: #fff;
+         }
+        #tip{
+        background-color:red;
+         font-size: 26px;
+         }
+
+         a{
+             text-decoration: none;
+         }
